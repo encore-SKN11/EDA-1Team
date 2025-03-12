@@ -1,5 +1,6 @@
 # EDA-1Team
-# 팀명 : 
+# 팀명 : TNT 팀 EDA-1Team
+# 팀명 : TNT 팀
 
 ## 팀원 소개 
 
