@@ -116,8 +116,6 @@
     ![Image](https://github.com/user-attachments/assets/6e785889-60d0-46f5-8df8-0be7ccf04c74)
   - 대부분의 컬럼에서 결측치 없음 (0으로 표시됨)
   - 도루 컬럼에 결측치(NaN) 52개 존재
-    
-      → 평균값(mean)으로 대체: `df['도루'].fillna(df['도루'].mean(), inplace=True)`
 
     
     #### 4️⃣ 주요 성적 지표의 분포 및 이상치 탐색 : 박스플롯(Boxplot)을 활용하여 주요 성적 지표의 분포와 이상치 분석
