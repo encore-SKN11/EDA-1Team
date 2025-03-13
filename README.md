@@ -113,12 +113,14 @@
 
 
     #### 3️⃣ 결측치 개수 확인 결과
+    
     ![Image](https://github.com/user-attachments/assets/6e785889-60d0-46f5-8df8-0be7ccf04c74)
   - 대부분의 컬럼에서 결측치 없음 (0으로 표시됨)
   - 도루 컬럼에 결측치(NaN) 52개 존재
 
     
     #### 4️⃣ 주요 성적 지표의 분포 및 이상치 탐색 : 박스플롯(Boxplot)을 활용하여 주요 성적 지표의 분포와 이상치 분석
+    ![Image](https://github.com/user-attachments/assets/8f3a2038-3955-4ff4-ae2a-2ae913f5e53c)
     ![Image](https://github.com/user-attachments/assets/498c7221-b78d-4596-aa15-aa4cdfaa3a66)
     - 위의 그래프에서 원으로 표시된 값들은 **이상치(outliers)** 로, 다른 데이터와 큰 차이를 보이는 값들
     - ex) 홈런, wRC+, OPS 등 일부 지표에서 **극단적인 이상치가 관찰됨**
