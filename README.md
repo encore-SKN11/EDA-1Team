@@ -138,9 +138,7 @@
   - 연도별 데이터 평균 추출
 
   ![Image](https://github.com/user-attachments/assets/5e12b113-42de-4b93-86cb-da37fdd7babb)
- 
----
-
+  <br/><br/><br/><br/>
   - 기존 데이터 - 연도별 데이터 평균 (표준화 진행 전)
   - `scaler = StandardScaler()`
  
@@ -150,10 +148,10 @@
 
 ### 7. 예측 및 결과 평가
 
-  #### target값(수상여부) 불균형 : 대부분의 인원이 골든글러브 수상 x
+  #### - target값(수상여부) 불균형 : 대부분의 인원이 골든글러브 수상 x
   ![Image](https://github.com/user-attachments/assets/95a8930b-2cf1-4ac7-b7be-708c6d81a90c)
 
-  #### 실제 예측 결과
+  #### - 실제 예측 결과
   ![Image](https://github.com/user-attachments/assets/dc7ebad6-9e90-4f47-89e9-88a3089c292d)
 
   ### - 평가 지표 확인(Classification_report)
