@@ -129,15 +129,20 @@
 
 
 ### 5. 데이터 정제 및 전처리
-- 수상 예측에 유의미하다고 판단되는 feature 추출
+  #### 1️⃣ 수상 예측에 유의미하다고 판단되는 feature 추출
+  ![Image](https://github.com/user-attachments/assets/78f624f9-aa37-496f-8fe3-86e66c37370e)
+  
+  -> 컬럼 제거: `df_new = df.drop(columns=['이름', '득점', '2루타', '3루타', '타점', '도루', '볼넷', '사구', '고의사구', '삼진', '병살', '희생타', '희생플라이'])`
 
+  #### 2️⃣ 표준화 : 연도마다 변하는 수상 기준과 연도별 데이터의 특징 변화(ex. 제도 변경으로 인한 경기 내용 변화)를 반영하기 위함
+  ![Image](https://github.com/user-attachments/assets/5e12b113-42de-4b93-86cb-da37fdd7babb)
+  - 연도별 데이터 평균 추출
 
+---
 
-- 표준화 : 연도마다 변하는 수상 기준과 연도별 데이터의 특징 변화(ex. 제도 변경으로 인한 경기 내용 변화)를 반영하기 위함
-
-![Image](https://github.com/user-attachments/assets/5e12b113-42de-4b93-86cb-da37fdd7babb)
-![Image](https://github.com/user-attachments/assets/51731c63-d695-4f11-b6ea-8e13bb26d284)
-
+  ![Image](https://github.com/user-attachments/assets/51731c63-d695-4f11-b6ea-8e13bb26d284)
+  - 기존 데이터 - 연도별 데이터 평균 (표준화 진행 전)
+  - `scaler = StandardScaler()`
 ### 6. 데이터 분할 및 학습
 
 ### 7. 예측 및 결과 평가
