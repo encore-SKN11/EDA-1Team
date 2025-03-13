@@ -152,7 +152,7 @@
   ![Image](https://github.com/user-attachments/assets/95a8930b-2cf1-4ac7-b7be-708c6d81a90c)
 
   #### - 실제 예측 결과
-  ![Image](https://github.com/user-attachments/assets/dc7ebad6-9e90-4f47-89e9-88a3089c292d)
+  ![Image](https://github.com/user-attachments/assets/68f6a188-9377-449e-b0ea-696a8cc09a4a)
 
   ### - 평가 지표 확인(Classification_report)
   ![Image](https://github.com/user-attachments/assets/5ff1bb90-0be7-437e-ad45-0f5a20a4d9aa)
