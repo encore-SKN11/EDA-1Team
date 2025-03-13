@@ -157,10 +157,10 @@
   ![Image](https://github.com/user-attachments/assets/95a8930b-2cf1-4ac7-b7be-708c6d81a90c)
 
   #### - 실제 예측 결과
-  ![Image](https://github.com/user-attachments/assets/68f6a188-9377-449e-b0ea-696a8cc09a4a)
+  ![alt text](image/test.png)
 
   ## ✅결론 (평가 지표 확인-Classification_report)
-  ![Image](https://github.com/user-attachments/assets/5ff1bb90-0be7-437e-ad45-0f5a20a4d9aa)
+  ![alt text](image/확률.png)
 
   이번 프로젝트에서 사용한 데이터는 수상에 실패한 인원이 385명, 수상에 성공한 인원이 75명으로 클래스 불균형이 존재한다. <br/>
   따라서 골든글러브 수상에 실패한 인원을 정확히 예측한 케이스가 많기 때문에 정확도가 약 0.93 으로 꽤 높은 수치를 보이지만 <br/>
