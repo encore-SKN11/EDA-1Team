@@ -7,7 +7,7 @@
 | 김장수 | 이채은 | 황준호|
 | --- | --- | --- |
 | ![Image](https://github.com/user-attachments/assets/9a5c53e6-e3da-4810-b96a-9b376100b926) | ![Image](https://github.com/user-attachments/assets/9a5c53e6-e3da-4810-b96a-9b376100b926) | ![Image](https://github.com/user-attachments/assets/b19ee646-41db-48f0-b502-3f0c0e0ef549) |
-| INTP | INTP | ENTJ | 
+| <div align="center">INTP</div> | <div align="center">INTP</div> | <div align="center">ENTJ</div> |
 # 프로젝트 주제 : ⚾️KBO 외야수 골든글러브 수상 예측을 위한 데이터 분석 프로젝트⚾️
 
 # 📅 개발 기간
