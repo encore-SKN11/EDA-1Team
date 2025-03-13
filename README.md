@@ -138,14 +138,19 @@
   - 연도별 데이터 평균 추출
 
   ![Image](https://github.com/user-attachments/assets/5e12b113-42de-4b93-86cb-da37fdd7babb)
-  <br/><br/><br/><br/>
-  - 기존 데이터 - 연도별 데이터 평균 (표준화 진행 전)
-  - `scaler = StandardScaler()`
- 
-  ![Image](https://github.com/user-attachments/assets/51731c63-d695-4f11-b6ea-8e13bb26d284)
-  
-### 6. 데이터 분할 및 학습
+  <br/><br/><br/>
 
+  - 기존 데이터 - 연도별 데이터 평균 (표준화 진행 전)
+
+  ![Image](https://github.com/user-attachments/assets/51731c63-d695-4f11-b6ea-8e13bb26d284)
+  #### - `scaler = StandardScaler()`
+  <br/><br/>
+### 6. 데이터 분할 및 학습
+  
+  ![Image](https://github.com/user-attachments/assets/21b5a3d6-4d1e-4fdf-8586-774c04926b62)
+  #### - 표준화된 train 데이터를 이용하여 K-NN 학습 진행
+  #### - test 데이터의 비율 : 25%
+  <br/><br/><br/><br/>
 ### 7. 예측 및 결과 평가
 
   #### - target값(수상여부) 불균형 : 대부분의 인원이 골든글러브 수상 x
@@ -154,7 +159,10 @@
   #### - 실제 예측 결과
   ![Image](https://github.com/user-attachments/assets/68f6a188-9377-449e-b0ea-696a8cc09a4a)
 
-  ### - 평가 지표 확인(Classification_report)
+  ## ✅결론 (평가 지표 확인-Classification_report)
   ![Image](https://github.com/user-attachments/assets/5ff1bb90-0be7-437e-ad45-0f5a20a4d9aa)
- 
-  
+
+  이번 프로젝트에서 사용한 데이터는 수상에 실패한 인원이 385명, 수상에 성공한 인원이 75명으로 클래스 불균형이 존재한다. <br/>
+  따라서 골든글러브 수상에 실패한 인원을 정확히 예측한 케이스가 많기 때문에 정확도가 약 0.93 으로 꽤 높은 수치를 보이지만 <br/>
+  **실제 골든글러브 수상 인원을 모델이 수상했다고 판정한 비율을 알려주는 Recall(재현율)의 수치를 확인하는 것이 유의미하다.** <br/>
+  최종적으로 모델 학습 결과, 86% 확률(**Recall**)로 실제 골든글러브 수상 인원을 정확히 예측하였다.     
